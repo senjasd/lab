@@ -6,7 +6,7 @@ from app import app
 def index():
 
     user = {'username': "student" , 'use': 'calculator'}
-    return render_template('index.html', title='Home', user=user)
+    return render_template('index2.html', title='Home', user=user)
 
 @app.route('/stat')
 def stat():
