@@ -33,7 +33,7 @@ def stat():
     user = {'username': "SEM" , 'use': 'game'}
     return '''<html>
     <head>
-    <title> Home  - Microblog</title>
+    <title> Home  - Shared Microblog</title>
     </head>
     <body>
     <h1>Hello,''' + user["username"] + '''!</h1>
